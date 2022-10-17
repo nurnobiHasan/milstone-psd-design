@@ -1,0 +1,160 @@
+@media all and (min-width:992px){
+	.menu_main > ul{
+		display: block !important;
+	}
+}
+@media all and (max-width: 991px){
+	.header_icon {
+		width: 100%;
+		float: inherit;
+		padding-top: 0px;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+	.header_logo {
+		width: 100%;
+		float: inherit;
+		text-align: center;
+		padding-bottom: 15px;
+		overflow: inherit;
+	}
+	.header_search {
+		overflow: inherit;
+		width: 100%;
+		position: relative;
+		padding-top: 8px;
+		text-align: center
+	}
+	.header_search form{
+		float: inherit;
+	}
+	.header_search input{
+		float: inherit !important;
+		width: 20%;
+	}
+	.header_search button{
+		right: 38%;
+	}
+	
+	/*  */
+	.resposive_menu_bar{
+		display: inline-block;
+	}
+	.header_menu{
+		padding-top: 50px;
+	}
+	.header_menu ul{
+		display: none;
+		margin-top: 0px;
+		padding-left: 0%;
+		text-align: center;
+	}
+	.header_menu ul li{
+		display: inherit;
+		
+	}
+	.header_menu ul li a{
+		display: inline-block;
+		padding-bottom: 18px;
+		padding: 30px 200px;
+		transition: .3s
+	}
+	.header_menu ul li a:hover{
+		color: blue;
+	}
+
+	/****** articles-area ******/
+	.articles_heading h1 {
+		padding: 0px 0px;
+		text-align: center;
+	}
+	.articles_heading ul{
+		display: none;
+	}
+	.articles-single {
+		width: 46.3%;
+	}
+	.articles-single:first-child{
+		margin-left: 1%;
+	}
+	.articles-single:last-child{
+		margin-right: 1%;
+	}
+	.contact_single {
+		width: 47.8%;
+		border: 1px solid #ddd;
+		margin: 1%;
+		padding-top: 38px;
+		padding-bottom: 45px;
+	}
+	.contact_single:last-child {
+		border-right: inherit;
+	}
+
+}
+@media all and (max-width: 767px){
+	.articles-single{
+		width: 98%;
+		margin: 1%;
+	}
+	.articles-single:first-child{
+		margin-left: 1%;
+	}
+	.articles-single:last-child{
+		margin-right: 0%;
+	}
+	.contact-area,{
+		padding-top: 30px;
+	}
+	.contact_ful{
+		padding-bottom: 30px;
+	}
+	.contact_top p{
+		width: 80%;
+	}
+	.contact_single{
+		width: 100%;
+		margin: 1%;
+	}
+
+}
+@media all and (max-width: 576px){
+	.contact_single{
+		width: 97%;
+	}
+	.header_menu ul li a {
+		padding-bottom: 18px;
+		padding: 18px 130px;
+	}
+}
+@media all and (max-width: 420px){
+	.resposive_menu_bar{
+		margin-right: 42%;
+	}
+	.header_search input {
+		float: inherit !important;
+		width: 30%;
+	}
+	.header_search button {
+		right: 31%;
+	}
+}
+@media all and (max-width: 320px){
+	.newspaper button {
+		padding: 7px 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
